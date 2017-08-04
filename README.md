@@ -70,12 +70,11 @@ NOTE - Transparency should be within in 5, 10, 15,20 -- 100.
 
 FOR GRADIENTS 
 ```
-setBackground(new PepperGradient.Builder()
-                            .setColorOne(PepperColors.ORANGE100)
-                            .setColorTwo(PepperColors.GREEN400)
-                            .setGradientShape(GradientDrawable.LINEAR_GRADIENT)
-                            .setOrientation(GradientDrawable.Orientation.LEFT_RIGHT)
-                            .build());
+setBackground(new PepperGradient().start(PepperColors.ORANGE100
+                            ,PepperColors.GREEN400,
+                            GradientDrawable.Orientation.TR_BL
+                            ,GradientDrawable.LINEAR_GRADIENT
+                            ));
                             ```
 
 WHERE A. (GradientShape is optional : default - GradientDrawable.LINEAR_GRADIENT)
