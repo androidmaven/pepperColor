@@ -10,10 +10,10 @@ just by calling it.
 3. Get creative by creating you own blend of color with only 1 or two lines of code.
 4. You also can set transparency and shades programmatically to your colors very easily.
 
-Its truly every designers color assitant.
 
-```Java
 # COMPILE WITH GRADLE.
+```Java
+
 
 JAVA - compile 'com.oluwatobi.android:peppercolor:2.0'
 
@@ -97,10 +97,6 @@ NOTE : setRatio is optional : default - 0.2f
 
 USING KOTLIN
 Same procedure can be followed.
-
-
-
-
 
 
 
