@@ -4,11 +4,11 @@ PepperColor is a developer color assistant for smooth and easy app design. (Pepp
 You don't have to think of colors in HEX much, pepperColor handles most things to start create colorful design
 following the material color design guidelines and beyond. It removes boilerplate codes for colors. 
 
-1. PepperColor comes with fully inbuilt list of material colors you can use in your XML and JAVA as well as Kotlin
+- PepperColor comes with fully inbuilt list of material colors you can use in your XML and JAVA as well as Kotlin
 just by calling it.
-2. You can create gradients with just 1(one) line of code instantly.
-3. Get creative by creating you own blend of color with only 1 or two lines of code.
-4. You also can set transparency and shades programmatically to your colors very easily.
+- You can create gradients with just 1(one) line of code instantly.
+- Get creative by creating you own blend of color with only 1 or two lines of code.
+- You also can set transparency and shades programmatically to your colors very easily.
 
 
 # ADDING TO YOUR PROJECT
