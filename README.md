@@ -12,7 +12,7 @@ just by calling it.
 
 Its truly every designers color assitant.
 
-**********************************
+```Java
 # COMPILE WITH GRADLE.
 
 JAVA - compile 'com.oluwatobi.android:peppercolor:2.0'
@@ -30,57 +30,68 @@ JAVA - compile 'com.oluwatobi.android:peppercolor:2.0'
   <artifact name='peppercolorjava' ext='pom' ></artifact>
 </dependency>
 
+```
+
 # HOW TO USE PEPPERCOLOR FOR ANDROID.
 
 USING XML
 Its very easy..just by calling it normally using the PPR prefix, and you get list of colors.
 Example:
+```
 
  android:background="@color/PPR_AMBER200"
-
+```
 where AMBER is the color name. and 200 is the shade. Allowing to choose from several shades of colors.
 
  USING JAVA
+ ```
 To get list of colors, use - e.g PepperColors.BLUE400.
 For single colors, use - new PepperSingleColors().start(params) or new PepperSingleColors.Builder()
 For gradients, use - new PepperGradient.Builder()
 For Blends, use -  PepperBlend.Builder()
+```
 
-**********************
 FOR SINGLE COLORS (example)
 1st method
+```
 setBackgroundColor(new PepperSingleColor().start(PepperColors.ORANGE800)); 
 setBackgroundColor(new PepperSingleColor().start(PepperColors.ORANGE800, int transparency));
+```
 
 2nd method
+```
 setBackgroundColor(new PepperSingleColor.Builder().setColor(PepperColors.PINK100).setTransparency(40).build());
+```
 
 
 NOTE - Transparency should be within in 5, 10, 15,20 -- 100.
 
 ******************************
 FOR GRADIENTS 
+```
 setBackground(new PepperGradient.Builder()
                             .setColorOne(PepperColors.ORANGE100)
                             .setColorTwo(PepperColors.GREEN400)
                             .setGradientShape(GradientDrawable.LINEAR_GRADIENT)
                             .setOrientation(GradientDrawable.Orientation.LEFT_RIGHT)
                             .build());
+                            ```
 
 WHERE A. (GradientShape is optional : default - GradientDrawable.LINEAR_GRADIENT)
       B. (GradientOrientation is optional : default - Gradient.Orienatation.TR_BL).
-
-*******************************
+      
 FOR BLENDS
-Method 1:
+```
+Method 1 -
 setBackgroundColor(new PepperBlend().start(PepperColors.GREEN200,PepperColors.AMBER600, 0.8f));
 
-Method 2:
+Method 2 -
 setBackgroundColor(new PepperBlend.Builder()
 .setColorOne(PepperColors.BLUE700)
 .setColorTwo(PepperColors.DEEP_PURPLE100)
 .setRatio(0.4f)
 .build());
+```
 
 NOTE : setRatio is optional : default - 0.2f
 
