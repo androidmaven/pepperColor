@@ -68,7 +68,6 @@ setBackgroundColor(new PepperSingleColor.Builder().setColor(PepperColors.PINK100
 
 NOTE - Transparency should be within in 5, 10, 15,20 -- 100.
 
-******************************
 FOR GRADIENTS 
 ```
 setBackground(new PepperGradient.Builder()
@@ -82,12 +81,14 @@ setBackground(new PepperGradient.Builder()
 WHERE A. (GradientShape is optional : default - GradientDrawable.LINEAR_GRADIENT)
       B. (GradientOrientation is optional : default - Gradient.Orienatation.TR_BL).
       
+      
 FOR BLENDS
-```
 Method 1 -
+```
 setBackgroundColor(new PepperBlend().start(PepperColors.GREEN200,PepperColors.AMBER600, 0.8f));
-
+```
 Method 2 -
+```
 setBackgroundColor(new PepperBlend.Builder()
 .setColorOne(PepperColors.BLUE700)
 .setColorTwo(PepperColors.DEEP_PURPLE100)
