@@ -11,11 +11,13 @@ just by calling it.
 4. You also can set transparency and shades programmatically to your colors very easily.
 
 
-# COMPILE WITH GRADLE.
+# ADDING TO YOUR PROJECT
 ```Java
 
 
-JAVA - compile 'com.oluwatobi.android:peppercolor:2.0'
+dependencies { 
+     compile 'com.oluwatobi.android:peppercolor:2.0'
+     }
 
  COMPILE WITH MAVEN
 <dependency>
