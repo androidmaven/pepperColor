@@ -22,13 +22,13 @@ dependencies {
  COMPILE WITH MAVEN
 <dependency>
   <groupId>com.oluwatobi.android</groupId>
-  <artifactId>peppercolorjava</artifactId>
-  <version>1.4</version>
+  <artifactId>peppercolor</artifactId>
+  <version>2.0</version>
   <type>pom</type>
 </dependency>
 
  COMPILE WITH IVY
-<dependency org='com.oluwatobi.android' name='peppercolorjava' rev='1.4'>
+<dependency org='com.oluwatobi.android' name='peppercolor' rev='2.0'>
   <artifact name='peppercolorjava' ext='pom' ></artifact>
 </dependency>
 
