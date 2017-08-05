@@ -87,7 +87,7 @@ Method 1 -
 setBackgroundColor(new PepperBlend().start(PepperColors.GREEN200,PepperColors.AMBER600, 0.8f));
 ```
 Method 2 -
-```
+``` java
 setBackgroundColor(new PepperBlend.Builder()
 .setColorOne(PepperColors.BLUE700)
 .setColorTwo(PepperColors.DEEP_PURPLE100)
@@ -99,6 +99,20 @@ NOTE : setRatio is optional : default - 0.2f
 
 USING KOTLIN
 Same procedure can be followed.
+
+Copyright 2017 Oluwatobi Akinpel
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 
 
