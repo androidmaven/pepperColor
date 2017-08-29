@@ -16,7 +16,7 @@ just by calling it.
 
 
 dependencies { 
-     compile 'com.oluwatobi.android:peppercolor:2.0'
+     compile 'com.oluwatobi.android:peppercolor:2.1'
      }
 
  COMPILE WITH MAVEN
